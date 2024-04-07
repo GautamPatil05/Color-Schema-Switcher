@@ -1,0 +1,58 @@
+/* Resetting default margin for the HTML element */
+html {
+    margin: 0;
+}
+
+/* Ensuring each color box appears on a new line */
+span {
+    display: block;
+}
+
+/* Centering the color boxes container */
+.canvas {
+    margin: 50px auto; /* Adjusted margin */
+    width: 80%;
+    text-align: center;
+}
+
+/* Styling for the color boxes */
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px; /* Added margin */
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Added transition effect */
+}
+
+/* Background color styles for each color box */
+#grey {
+    background: grey;
+}
+
+#white {
+    background: white;
+}
+
+#blue {
+    background: blue;
+}
+
+#yellow {
+    background: yellow;
+}
+
+#orange {
+    background: orange;
+}
+
+#purple {
+    background: purple;
+}
+
+#green {
+    background: green;
+}
+
